@@ -71,7 +71,7 @@ function displayWeather(data) {
             <div class="day">${dayName}</div>
           </div>
           <div class="forecast-content p-3 text-white text-center">
-            <div class="forecast-icon mb-2">
+            <div class="forecast-icon my-3">
               <img src="https:${day.day.condition.icon}" alt="${day.day.condition.text}">
             </div>
             <div class="degree fw-bold fs-4">${day.day.maxtemp_c}<span>°C</span></div>

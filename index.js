@@ -10,7 +10,6 @@ document.getElementById("submit").addEventListener("click", function () {
 });
 
 
-
 async function getWeather(city) {
   const apiKey = "de5ca0e76db0475c9dc74826252406";
   const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=3`;

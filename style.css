@@ -286,7 +286,7 @@ input[type="submit"] {
 
 
 /*Contact us*/
-.main-content , .fullwidth-block{
+.main-content , .fullwidth-block ,.myheader{
     background: #1e202b;
 }
 
